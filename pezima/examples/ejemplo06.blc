@@ -1,0 +1,22 @@
+[
+        decl a;
+        decl b;
+        [
+                ifzero a [
+                         ifzero b use a a + neg 20
+                         ]
+                         ;
+                
+                ifnzero b [
+                          ifneg a use a b + neg 31
+                          ]
+        ]
+        ;
+        [
+                ifneg a [
+                        ifneg b [
+                                use b neg 41 + neg 10
+                                ]
+                        ]
+        ]
+]

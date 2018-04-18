@@ -1,0 +1,27 @@
+[
+   decl a;
+   decl b;
+   decl c;
+   decl d;
+   use a 10;
+   use b neg 20;
+   use c neg 30;
+   use d 40;
+   [
+      decl e;
+      decl f;
+      decl g;
+      use e a + 10;
+      use f b * c;
+      use g d + neg 10
+   ]
+   ;
+   [
+      decl e;
+      decl f;
+      decl g;
+      use e a + b * c;
+      use f b * c * d;
+      use g e + neg 10
+   ]
+]

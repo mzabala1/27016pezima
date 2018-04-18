@@ -1,0 +1,7 @@
+[
+decl a;
+decl b;
+ifzero a ifneg b [ use a  a + b ];
+ifneg b ifpos c [ use c c * neg 10 ];
+ifnzero c [ use d a + b * c ] 
+]

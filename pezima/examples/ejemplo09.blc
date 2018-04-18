@@ -1,0 +1,12 @@
+[
+        decl a;
+        [
+            decl b;
+            use b c + a
+        ]
+        ;
+        [
+            decl b;
+            use b b + a
+        ]
+]

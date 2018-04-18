@@ -1,0 +1,9 @@
+[
+decl a;
+decl b;
+decl c;
+use a 10;
+use b 20;
+use a a + b;
+use c neg 20
+]
